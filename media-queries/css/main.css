@@ -11,3 +11,27 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+
+.title {
+    color: red;
+}
+
+@media only screen and (min-width:30em) {
+    
+    .title {
+        color: green;
+        font-size: 10rem;
+    }
+}
+ 
+
+    @media only screen and (min-width:50em) {
+    
+    .title {
+        color: blue;
+    }    
+}
+    
+
+/*when changing rem to em DIV by 16 */
