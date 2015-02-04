@@ -1,0 +1,64 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+-moz-text-size-adjust:100%;
+-ms-text-size-adjust:100%;
+-webkit-text-size-adjust:100%;
+text-size-adjust:100%;
+  }
+  
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+label { 
+    display: block;
+}
+
+/* When a label comes immediately after an input */
+
+input + label { 
+    display: inline-block;
+}
+
+button { 
+ font-size: 3em;
+ border:3px solid #000;
+ background-color: limegreen;
+ font-family: Verdana;
+ font-weight: bold
+}
+
+button:hover { 
+    background-color: #093;
+    cursor: pointer;
+    color: #fff;
+}
+
+button:active {  
+    background-color: red;
+}
+
+input[type="email"]{ 
+   border: 1px soild #000;
+    border-radius: 3px;
+    font-size: 1.125em;
+    font-family: serif;
+    background-color: #e2e2e2;
+}
+
+
+a[href$=".pdf"{ 
+} 
+
+input[type="email":focus {
+    outline: 3px solid blue;
+    background-color: #fff;
+} 
